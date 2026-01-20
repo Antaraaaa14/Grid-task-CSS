@@ -1,0 +1,19 @@
+.layout {
+    display: grid;
+    grid-template-areas:
+        "header header"
+        "sidebar content"
+        "footer footer";
+    grid-template-columns: 1fr 2fr;
+}
+
+.header { grid-area: header; }
+.sidebar { grid-area: sidebar; }
+.content { grid-area: content; }
+.footer { grid-area: footer; }
+
+div {
+    border: 1px solid black;
+    padding: 10px;
+    background-color: rgb(165, 214, 214);
+}

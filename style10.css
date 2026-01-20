@@ -1,0 +1,12 @@
+@supports (display: grid) {
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+.box {
+    border: 1px solid black;
+    padding: 10px;
+    background-color: khaki;
+}
